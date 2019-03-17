@@ -1,14 +1,5 @@
 n = int(input())
-lst = [0]
-tmp_lst = list(map(int, input().split()))
-query_lst = [0]*(n+1)
-for i in range(1, n+1):
-	x = tmp_lst[i-1]
-	if x not in lst:
-		query_lst[i] = query_lst[i-1]+1
-	else:
-		query_lst[i] = query_lst[i-1]
-	lst.append(x)
+lst = list(map(int, input().split()))
 for _ in range(int(input())):
-	a, b = map(int, input().split())
-	print(query_lst[b])
+	i, j = map(int, input().split())
+	print(len(set(lst[i-1:j])))
