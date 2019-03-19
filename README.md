@@ -1,2 +1,2 @@
-## My Spoj-Solutions.
-### My Spoj-Handle-'hvr81070'
+## Spoj-Solutions.
+### Spoj-User-Handle-'hvr81070'
